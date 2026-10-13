@@ -12,7 +12,7 @@ Joke[] jokes =
 ];
 
 app.MapGet("/joke", () => jokes[Random.Shared.Next(jokes.Length)]);
-app.MapGet("/random", () => "I Love You Kuchu Puchu");
+app.MapGet("/random", () => "I love you komal");
 
 app.Run();
 
